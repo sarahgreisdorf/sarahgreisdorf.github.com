@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="homepage.css" />
+	<script src="jquery.js"></script>
 	<title>
 		Sarah Greisdorf
 	</title>
@@ -40,19 +41,6 @@
 		<h1 class= "contact"><A NAME="contact">CONTACT </h1>
 	</div>-->
 
-<script>
-	
-	$('a[href^="about"]').on('click', function(event) {
-    var target = $(this.href);
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-});
-	
-</script>
 
 </body>
 </html>
