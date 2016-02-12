@@ -66,9 +66,19 @@ body
 	position: relative;
 	color:#d87b35;
 	text-align: center;
-	
+}
 
+.section.third {
+	top: 900px;
+	position: relative;
+	height:700px;
+	background: #f2f1ec;
 
+}
+
+.projects{
+	color:#d87b35;
+	text-align: center;
 }
 
 body {
