@@ -1,6 +1,4 @@
 h1 {
-	padding-top: 40px;
-	padding-left: 75px;
 	font-size: 60px;
 	font-style: normal;
 	font-variant: normal;
@@ -21,15 +19,16 @@ li {
 	padding-right: 10px;
 	position: relative;
 	left: 800px;
-	top: -70px;
+	top: -100px;
 	text-decoration: none;
 }
 
 a {
 	text-decoration: none;
-	text-decoration: none;
+	text-decoration: none;e
 }
-a:link, a:visited {
+
+a:visited {
 	color: #FFF;
 }
 
@@ -40,7 +39,9 @@ a:hover {
 body
 .section {
 	width: 100%;
-	padding: 5px;
+	text-align: center;
+	vertical-align: center;
+	margin: 0 auto;
 }
 
 .section.first {
@@ -49,32 +50,36 @@ body
 	height: 800px;
 	background: #FFF;
 	vertical-align: baseline;
+	text-align: center;
 }
 
 .about{
 	color:#3f502f;
 	text-align: center;
 }
-
-.section.second{
-	position: relative;
-	top: 500px;
-	height:700px;
-	background: #FFF;
-}
-
-.resume {
-	position: relative;
-	color:#3f502f;
+button {
+	background-color: #3f502f;
+	border-radius: 4px;
 	text-align: center;
+	top: 300px;
+	font-family: 'Helvetica Neue';
+	width: 200px;
+	height: 75px;
+	font-size: 20px;
+	padding: 5px;
+	font-weight: lighter;
+	border: 0px;
+
 }
 
 .section.third {
 	top: 500px;
 	position: relative;
-	height:700px;
+	height:600px;
 	background: #FFF;
+	text-align: center;
 }
+
 
 .projects{
 	color:#3f502f;
@@ -84,9 +89,15 @@ body
 .section.fourth {
 	top: 500px;
 	position: relative;
-	height:700px;
+	height:400px;
 	background: #FFF;
+	text-align: center;
+}
 
+p {
+	color: #3f502f;
+	font-family: 'Helvetica Neue';
+	text-align: center;
 }
 
 .contact{
