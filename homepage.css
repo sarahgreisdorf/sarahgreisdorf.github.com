@@ -19,6 +19,11 @@ a {
 	text-decoration: none;
 }
 
+#header-fixed {
+    position: fixed;
+    top: 0px; 
+
+}
 
 .head table {
 
@@ -29,6 +34,7 @@ a {
 	border: 1px;
 	border-color: black;
 	padding: 0px 200px;
+	position: absolute;
 }
 
 .head td {
@@ -88,11 +94,11 @@ body
 }
 
 button {
-	background-color: #3f502f;
+	background-color: #FFD33C;
 	border-radius: 4px;
 	text-align: center;
 	top: 300px;
-	font-family: 'Helvetica Neue';
+	font-family: "Futura Bold", Futura, sans-serif;
 	width: 200px;
 	height: 75px;
 	font-size: 20px;
@@ -130,8 +136,8 @@ button {
 
 
 p {
-	color: #3f502f;
-	font-family: 'Helvetica Neue';
+	color: #2e363b;
+	font-family: "Futura Bold", Futura, sans-serif;
 	text-align: center;
 }
 
