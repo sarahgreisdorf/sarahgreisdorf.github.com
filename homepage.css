@@ -11,6 +11,10 @@ h1 {
 	line-height: -px;
 }
 
+a {
+	color: #FFF;
+}
+
 a:visited {
 	color: #FFF;
 }
@@ -107,7 +111,6 @@ button {
 	padding: 5px;
 	font-weight: lighter;
 	border: 0px;
-
 }
 
 .section.third {
