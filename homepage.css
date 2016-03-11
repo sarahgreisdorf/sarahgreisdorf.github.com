@@ -60,8 +60,10 @@ a {
 .bowerbird img {
 	width: 270px;
 	height: 150px;
-	padding-left: 200px;
+	padding-left: 115px;
 	padding-top: 50px;
+	vertical-align: center;
+	overflow: none;
 }
 
 body
@@ -153,22 +155,11 @@ body {
 	background-size: 100%;
 }
 
-.arrow div {
-    position: absolute;
-    margin: auto;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    width: 40px;
-    height: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    -webkit-animation: bounce 2s infinite ease-in-out;
+#bowerbird.text {
+position:relative;
+visibility:hidden;
 }
 
-@-webkit-keyframes bounce {
-	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
-    40%  { -webkit-transform: translateY(-20px); }
-	80% { -webkit-transform: translateY(-10px); }
+#bowerbird:hover .text {
+visibility:visible;
 }
-
-
