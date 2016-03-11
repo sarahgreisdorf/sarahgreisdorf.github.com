@@ -8,6 +8,7 @@ h1 {
 	text-align: center;
 	padding-top: 100px;
 	margin-bottom: 7px;
+	line-height: -px;
 }
 
 .head table {
@@ -37,11 +38,11 @@ h1 {
 
 }
 
-img:hover {
+.bowerbird img:hover {
 	-webkit-filter: brightness(50%);
 }
 
-img {
+.bowerbird img {
 	width: 270px;
 	height: 150px;
 	padding-left: 200px;
@@ -135,5 +136,24 @@ body {
 	height: 700px;
 	background-repeat: no-repeat;
 	background-size: 100%;
-
 }
+
+.arrow div {
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
+
+
