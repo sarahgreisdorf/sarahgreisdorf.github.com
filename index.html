@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="homepage.css">
 	<link rel="stylesheet" type="text/css" href="general.css">
-	<script src="jquery.js"></script>
+	<script src="modal.js"></script>
 	<link rel="shortcut icon" href="../desktop/favicon.ico" />
 	<title>
 		Sarah Greisdorf
@@ -31,17 +31,17 @@
 
 	<div class= "headings">
 		<div class="section first">
-		<br> <A NAME="about"></br>
+			<br> <A NAME="about"></br>
 			<h1>ABOUT </h1>
 			<div class = "descrip">
-			<p> In Jane Austen’s Pride and Prejudice, characters give others their opinions on things to make their true emotions.  With a blanket of artificial feelings covering them, many find difficult admitting the truth to themselves and instead provide others with the information they need to be hearing themselves.  This backward attempt at self-affirmation results in negative feelings between characters as the truth is often hurtful.  The opinions of these characters stem from a deeper truth about themselves yet is not often revealed.  By hiding the truth within, many appear to be rude and outlandish. 
- </p>
+				<p> In Jane Austen’s Pride and Prejudice, characters give others their opinions on things to make their true emotions.  With a blanket of artificial feelings covering them, many find difficult admitting the truth to themselves and instead provide others with the information they need to be hearing themselves.  This backward attempt at self-affirmation results in negative feelings between characters as the truth is often hurtful.  The opinions of these characters stem from a deeper truth about themselves yet is not often revealed.  By hiding the truth within, many appear to be rude and outlandish. 
+				</p>
 			</div>
 		</div>
 
 
 		<div class="section third">
-		<br> <A NAME="projects"> </br>
+			<br> <A NAME="projects"> </br>
 			<h1>PROJECTS</h1>
 			<div class= "bowerbird">
 				<img src= "bowerbird.png">
@@ -58,11 +58,21 @@
 				<p> sarah.greisdorf@gmail.com </p>
 			</div>
 			<button type="submit" onclick="window.open('Resume.pdf')"><p style="color: #FFF"> Download Resume</button>
+
+			<div id="myModal" class="Modal is-hidden is-visuallyHidden">
+				<div class="Modal-content">
+					<span id="closeModal" class="Close">&times;</span>
+					<p>Simple Modal</p>
+				</div>
+			</div>
+
+			<button id="myBtn">Open Modal</button>
 		</div>
 
 	</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+
 
 </body>
 </html>
