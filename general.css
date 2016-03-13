@@ -4,10 +4,14 @@ div {
 
 body {
 	margin: 0;
-	height: 700px;
+	height: 900px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-image: url("balloon.jpg");
+}
+
+.background img {
+	opacity: 0.3;
 }
 
 button {  
