@@ -9,7 +9,7 @@
 
 .head table {
 
-	background-color: #FFD33C;
+	background-color: #e5d42b;
 	width: 100%;
 	height: 60px;
 	margin: 0px;
@@ -33,7 +33,7 @@
 	font-size: 20px;
 	font-family: "Futura Bold", Futura, sans-serif;
 	line-height: 15px;
-	color: #FFD33C;
+	color:  #2e363b;
 	text-align: center;
 }
 
@@ -44,8 +44,8 @@
 .bowerbird img {
 	width: 270px;
 	height: 150px;
-	padding-left: 115px;
-	padding-top: 50px;
+	margin-left: 115px;
+	margin-top: 50px;
 	vertical-align: center;
 	overflow: none;
 }
@@ -66,7 +66,7 @@ body
 .section.first {
 	color: #2e363b;
 	position: relative;
-	top: 200px;
+	top: 320px;
 	height: 900px;
 	background: #FFF;
 	vertical-align: baseline;
@@ -85,6 +85,10 @@ body
 	padding-top: 25px;
 	padding-bottom: 200px;
 	padding-right: 25px;
+}
+
+.me img {
+	padding: 100px;
 }
 
 .descript p {

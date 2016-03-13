@@ -7,6 +7,7 @@ body {
 	height: 700px;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-image: url("balloon.jpg");
 }
 
 button {  
@@ -47,11 +48,4 @@ h1 {
 	padding-top: 100px;
 	margin-bottom: 7px;
 	line-height: -px;
-}
-
-.me img {
-	width: 50%;
-	height: 50%;
-	z-index: 3;
-	padding: 100px;
 }
