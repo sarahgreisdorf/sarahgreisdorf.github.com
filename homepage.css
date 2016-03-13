@@ -66,7 +66,7 @@ body
 	color: #2e363b;
 	position: relative;
 	top: 330px;
-	height: 600px;
+	height: 1000px;
 	background: #FFF;
 	vertical-align: baseline;
 }
@@ -86,7 +86,7 @@ body
 	padding-right: 25px;
 	height: 500px;
 	overflow: none;
-	margin: 0px;
+	margin: 0px ;
 }
 
 .me img {
