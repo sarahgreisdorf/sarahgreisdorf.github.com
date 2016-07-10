@@ -3,10 +3,9 @@ div {
 }
 
 body {
-	margin: 0;
-	height: 900px;
+	
 	background-repeat: repeat;
-	background-size: 100%;
+
 	background-image: url("brickwall_@2X.png");
 }
 
