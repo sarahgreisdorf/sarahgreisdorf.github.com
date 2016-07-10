@@ -5,9 +5,9 @@ div {
 body {
 	margin: 0;
 	height: 900px;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: 100%;
-	background-image: url("crossword.png");
+	background-image: url("brickwall_@2X.png");
 }
 
 .background img {
