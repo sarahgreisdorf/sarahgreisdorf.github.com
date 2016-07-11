@@ -4,7 +4,8 @@
 	text-align: right;
 	margin:0;
    	padding:0;
-   	width: 120px;
+   	width: 150px;
+
 
 }
 
@@ -38,8 +39,9 @@ h1 {
 
 .header {
 	width: 20%;
-	margin: 0px;
+	margin: 1px;
 	float: left;
+	left: 10px;
 }
 
 .bowerbird {
