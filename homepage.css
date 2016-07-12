@@ -1,11 +1,21 @@
-@media screen and (min-width: 320px) {}
+@media screen and (min-width: 320px) {
 	p {
 		font-family: "Futura Bold", Futura, sans-serif;
 		color: blue;
 		font-size: 24px;
 	}
 
+	a {
+	text-decoration: none;
+	}
 
+	h1 {
+	  font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
+	  color: black;
+	  margin: 25px;
+	}
+
+}
 
 @media screen and (min-width: 1224px) {}
 
