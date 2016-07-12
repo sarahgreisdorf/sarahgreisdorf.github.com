@@ -1,12 +1,12 @@
+a {
+	text-decoration: none;
+	}
+
 @media screen and (min-width: 320px) {
 	p {
 		font-family: "Futura Bold", Futura, sans-serif;
 		color: blue;
 		font-size: 24px;
-	}
-
-	a {
-	text-decoration: none;
 	}
 
 	h1 {
@@ -28,8 +28,8 @@
 	}
 
 	.bowerbird img {
-		width: 200px;
-		height: 150px;
+		width: 300px;
+		height: 200px;
 		margin: 1%;
 		overflow: none;
 		vertical-align: left;
