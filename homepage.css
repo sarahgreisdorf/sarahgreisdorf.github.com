@@ -13,6 +13,18 @@
 	  font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
 	  color: black;
 	  margin: 25px;
+	  float: right;
+	}
+
+	.head th {
+		font-family: "Futura Bold", Futura, sans-serif;
+		color: black;
+		text-align: right;
+		margin:0;
+	   	padding:0;
+	   	width: 150px;
+	   	vertical-align: right;
+	   	float: right;
 	}
 
 }
