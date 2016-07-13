@@ -36,7 +36,6 @@ and (orientation : landscape) {
 		margin: 1%;
 		overflow: none;
 		vertical-align: left;
-		top: 10px;
 		float: center;
 	}
 
