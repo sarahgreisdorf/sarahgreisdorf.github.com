@@ -25,9 +25,9 @@ and (orientation : landscape) {
 		text-align: right;
 		margin:0;
 	   	padding:0;
-	   	width: 150px;
-	   	vertical-align: right;
-	   	float: right;
+	   	width: 320px;
+	   	vertical-align: center;
+	   	float: center;
 	}
 
 	.bowerbird img {
@@ -39,6 +39,12 @@ and (orientation : landscape) {
 		top: 10px;
 		float: center;
 	}
+
+	.bowerbird {
+	padding-top: 75px;
+	vertical-align: center;
+	float: center;
+}
 
 	.head th {
 		font-family: "Futura Bold", Futura, sans-serif;
