@@ -5,7 +5,7 @@ a {
 @media only screen 
 and (min-device-width : 320px) 
 and (orientation : landscape) { 
-	
+
 	p {
 		font-family: "Futura Bold", Futura, sans-serif;
 		color: blue;
@@ -37,6 +37,7 @@ and (orientation : landscape) {
 		overflow: none;
 		vertical-align: left;
 		top: 10px;
+		float: center;
 	}
 
 	.head th {
