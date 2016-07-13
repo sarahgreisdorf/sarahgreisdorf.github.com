@@ -2,7 +2,9 @@ a {
 	text-decoration: none;
 	}
 
-@media screen and (min-width: 300px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
 	p {
 		font-family: "Futura Bold", Futura, sans-serif;
 		color: blue;
@@ -10,10 +12,10 @@ a {
 	}
 
 	h1 {
-	  font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
-	  color: green;
-	  margin: 10px;
-	  float: right;
+		font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
+		color: green;
+		margin: 10px;
+		float: right;
 	}
 
 	.head th {
@@ -37,14 +39,14 @@ a {
 	}
 
 	.head th {
-	font-family: "Futura Bold", Futura, sans-serif;
-	color: black;
-	text-align: right;
-	margin:0;
-   	padding:0;
-   	width: 10px;
-   	vertical-align: right;
-}
+		font-family: "Futura Bold", Futura, sans-serif;
+		color: black;
+		text-align: right;
+		margin:0;
+	   	padding:0;
+	   	width: 10px;
+	   	vertical-align: right;
+	}
 
 }
 
