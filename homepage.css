@@ -36,7 +36,7 @@ a:visited {
 
 .head td {
     font-family: "Futura Bold", Futura, sans-serif;
-    padding: 5%;
+    padding: 2%;
     color: black;
     text-decoration-color: black;
 }
@@ -46,9 +46,6 @@ h1 {
     font-size: 24px;
 }
 
-.contact table {
-    padding-top: 10%;
-}
 
 .contact img {
     height: 50%;
