@@ -8,7 +8,9 @@ a:visited {
 	color: black;
 }
 
-
+.portfolio:hover{
+    opacity:1;
+}
 
 .portfolio img {
     width: 300px;
