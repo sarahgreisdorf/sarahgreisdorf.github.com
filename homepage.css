@@ -1,138 +1,73 @@
-.head a {
-	color: #FFF;
+a {
+	text-decoration: none;
+
+	}
+
+
+a:visited {
+	color: black;
 }
 
-#header-fixed {
-	position: fixed;
-	top: 0%; 
+.portfolio:hover{
+    opacity:1;
 }
 
-.head table {
+.portfolio img {
+    width: 300px;
+    height: 200px;
+    margin: 1%;
+    overflow: none;
+    vertical-align: left;
+    float: center;
+}
 
-	background-color: #ffd422;
-	width: 100%;
-	height: 60px;
-	margin: 0px;
-	padding: 0px 400px;
-	position: absolute;
-	z-index: 4;
+.portfolio {
+    
+    vertical-align: center;
+    float: center;
+}
+
+.name {
+	padding-top: 5%;
+	z-index: 5;
+    font-family: "Futura Bold", Futura, sans-serif;
+	font-size: 24px;
+	position: relative;
+
 }
 
 .head td {
-	font-family: "Futura Bold", Futura, sans-serif;
-	color: #FFF;
-	vertical-align: center;
-	text-align: center;
+    font-family: "Futura Bold", Futura, sans-serif;
+    padding: 2%;
+    color: black;
+    text-decoration-color: black;
 }
 
-.title p {
-
-	font-size: 100%;
-	font-family: "Futura Bold", Futura, sans-serif;
-	line-height: 15px;
-	color:  #2e363b;
-	text-align: center;
-}
-
-.bowerbird img:hover {
-	-webkit-filter: brightness(50%);
-}
-
-.bowerbird img {
-	width: 270px;
-	height: 150px;
-	margin-left: 115px;
-	margin-top: 50px;
-	vertical-align: center;
-	overflow: none;
-}
-
-body
-.section {
-	width: 100%;
-}
-
-.headings h1 {
-	font-size: 500%;
-	font-weight: 200;
-	letter-spacing: -0.07em;
-	color: #2e363b;
-	font-family: "Futura Bold", Futura, sans-serif;
-	margin: 0px;
-	padding-top: 100px;
-}
-
-.section.first {
-	color: #2e363b;
-	position: relative;
-	top: 330px;
-	height: 1000px;
-	background: #FFF;
-	vertical-align: baseline;
-}
-
-.about{
-	color:#3f502f;
-	text-align: center;
-}
-
-.descrip p {
-	vertical-align: center;
-	text-align: left;
-	width: 40%;
-	padding-left: 50px;
-	padding-top: 25px;
-	padding-bottom: 200px;
-	padding-right: 25px;
-	height: 500px;
-	overflow: none;
-	margin: 0px ;
-}
-
-.me img {
-	padding: 100px;
-}
-
-.descript p {
-	vertical-align: center;
-	text-align: left;
-	width: 40%;
-	padding-left: 400px;
-	padding-top: 25px;
-	padding-bottom: 200px;
-
-}
-
-.section.third {
-	top: 100px;
-	position: relative;
-	height:600px;
-	background: #FFF;
-}
-
-.projects{
-	color:#3f502f;
-	text-align: center;
-}
-
-.section.fourth {
-	top: 300px;
-	position: relative;
-	height:600px;
-	background: #FFF;
-	text-align: center;
+h1 {
+    font-family: "Futura Bold", Futura, sans-serif;
+    font-size: 24px;
 }
 
 
-.contac p {
-	color: #2e363b;
-	font-family: "Futura Bold", Futura, sans-serif;
-	text-align: center;
-}
-
-.contact{
-	color:#3f502f;
-	text-align: center;
+.contact img {
+    height: 50%;
+    width: 50%;
 }
 
 
+
+button {
+  
+    width: 100px;
+    height: 50px;
+    border-radius: 0px;
+    background-color: white;
+    border-color: black;
+    opacity: 40%;
+}
+
+.contact p {
+
+    font-family: "Futura Bold", Futura, sans-serif;
+    font-size: 14px;
+}
